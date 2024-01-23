@@ -1,0 +1,12 @@
+Source: ros-humble-qb-softhand-industry
+Section: misc
+Priority: optional
+Maintainer: Support Team <support@qbrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-qb-softhand-industry
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-qb-softhand-industry-description, ros-humble-qb-softhand-industry-driver, ros-humble-qb-softhand-industry-ros2-control, ros-humble-ros-workspace
+Description: This package contains the ROS interface for qbrobotics® SoftHand INdustry device.
