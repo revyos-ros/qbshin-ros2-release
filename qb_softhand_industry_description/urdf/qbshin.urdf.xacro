@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot name="qbshin" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find qb_softhand_industry_description)/urdf/qbshin.utils.xacro"/>
+	<xacro:arg name="namespace" default="qbshin"/>
+	<xacro:arg name="flange_angle" default="0"/>
+
+	<link name="root_link"/>
+	<xacro:build_hand_from_yaml configuration="qbshin_right" namespace="$(arg namespace)" parent="root">
+		<origin xyz="0 0 0" rpy="0 0 0"/>
+	</xacro:build_hand_from_yaml>
+
+</robot>
