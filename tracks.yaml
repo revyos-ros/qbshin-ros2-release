@@ -23,5 +23,5 @@ tracks:
     release_tag: :{version}
     ros_distro: humble
     vcs_type: git
-    vcs_uri: https://GiulianoDami@bitbucket.org/qbrobotics/qbshin-ros.git
+    vcs_uri: https://bitbucket.org/qbrobotics/qbshin-ros.git
     version: :{auto}
