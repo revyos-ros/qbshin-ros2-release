@@ -1,0 +1,12 @@
+# request
+int32 max_repeats
+bool get_position
+bool get_current
+bool get_velocity
+---
+# response
+bool success
+int16 position
+int16 current
+int16 velocity
+builtin_interfaces/Time stamp
