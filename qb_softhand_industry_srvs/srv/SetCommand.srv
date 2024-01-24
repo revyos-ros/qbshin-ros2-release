@@ -1,0 +1,7 @@
+# request
+int32 max_repeats
+bool set_commands
+int16 position_command
+---
+# response
+bool success
