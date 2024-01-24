@@ -1,0 +1,23 @@
+<package format="2">
+  <name>qb_softhand_industry_driver</name>
+  <version>2.1.2</version>
+  <description>
+    This package contains communication interface for qbrobotics® SoftHand Industry.
+  </description>
+  <author>qbrobotics®</author>
+  <maintainer email="support@qbrobotics.com">Support Team</maintainer>
+  <license>BSD 3-Clause</license>
+
+  <url type="repository">https://bitbucket.org/qbrobotics/qbshin-ros</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>qb_softhand_industry_srvs</depend>
+  <depend>rclcpp</depend>
+
+
+  <!--TODO: <test_depend>gtest</test_depend>-->
+  <doc_depend>doxygen</doc_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
