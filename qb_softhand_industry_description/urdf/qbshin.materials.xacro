@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+	<material name="qbshin/optional">
+		<color rgba="0.0 0.5 0.8 1.0"/>
+	</material>
+
+	<material name="qbshin/base">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+	<material name="qbshin/palm">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+	<material name="qbshin/knuckle">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+	<material name="qbshin/proximal">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+	<material name="qbshin/middle">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+	<material name="qbshin/distal">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+	<material name="qbshin/default">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+</robot>
