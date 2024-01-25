@@ -1,0 +1,9 @@
+<library path="qb_softhand_industry_ros2_control">
+  <class name="qb_softhand_industry_ros2_control/QbSofthandIndustryHW"
+         type="qb_softhand_industry_ros2_control::QbSofthandIndustryHW"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      The ros2_control minimal robot protocol with transmissions.
+    </description>
+  </class>
+</library>

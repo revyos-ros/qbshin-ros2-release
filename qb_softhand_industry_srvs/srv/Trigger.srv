@@ -1,0 +1,6 @@
+# request
+int32 max_repeats
+---
+# response
+bool success
+string message
